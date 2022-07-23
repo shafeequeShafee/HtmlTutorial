@@ -1,0 +1,16 @@
+///////////////   HTML  /////////////
+
+HTML- Hyper Text Markup Language
+
+Markup Language for creating webpages/documents, Not a programming language
+
+extensions :
+---------------
+1)Live Sass Compiler
+2)Live Server
+
+//// steps 
+1) create main.scss
+2) click watch sass
+3)open with live server
+4)type html:5
