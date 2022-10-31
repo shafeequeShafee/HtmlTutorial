@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+}
+.container{
+    border:6px solid black;
+    display: flex;
+
+    /* /////////to create inline flex container */
+    /* display:inline-flex; */
+
+
+
+    /*////////// flex direction njammukk maatam */
+    /* flex-direction: row-reverse;   */ 
+    /* flex-direction: column;  */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+
+
+
+    /*////////flex wrap property */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+
+   
+    /*///////// flex wrap property in column direction */
+    /* flex-direction: column;  */
+    /* height:400px; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+
+    /*/////////// flex flow property- it is a short hand for flex direction and flex wrap */ 
+    /* flex-flow: row wrap; */
+
+
+    /* ///////////// content alignment property => justify content align item based on the main axis */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    
+
+
+     /* ///////////// content alignment property in column */
+     /* flex-direction: column;  */
+     /* height: 800px; */
+     /* justify-content: flex-start; */
+     /* justify-content: flex-end; */
+     /* justify-content: space-between; */
+     /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+  /* ///////////// content alignment property in  cross axis of container (in perpendicular direction)*/
+    /* height: 800px; */
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: baseline; */
+
+    /* ////////  alignt content (it is a mix of justify content and align item) => aligns lines of content along the cross axix and distribute extra spacing in the parent container*/
+    /* height: 800px;
+    flex-wrap: wrap; */
+    /* align-content: stretch; */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+
+
+}
+
+.flex-item{
+    color: #0a0a0a;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    /* width: 8rem; */
+    
+    
+    /* Dictates the shrink factor of the flex items when the default size of flex items is larger than the flex container */
+    /* by setting flex-shrink:0 , we can prevent shrinking from happening */
+    /* flex-shrink: 0; */
+
+
+    /* dictates what amount of the available space inside the flex container the item should take up. */
+    flex-grow: 1;
+
+    
+}
+.item-1{
+    /* background-color: rgb(245, 7, 7); */
+    /* padding-bottom: 3rem; */
+}
+.item-2{
+    /* background-color: rgb(10, 134, 243); */
+    /* padding-bottom: 5rem; */
+
+
+    /* order 0 item comes first ,then order 1, then order 2 */
+    /* order: 1; */
+
+    /* flex-shrink: 4; */
+
+}
+.item-3{
+    /* background-color: rgb(94, 98, 102); */
+    /* font-size: 3rem; */
+    /* flex-grow: 1; */
+
+
+}
+.item-4{
+    /* background-color: rgb(219, 18, 142); */
+    /* flex-grow: 2; */
+}
+.item-5{
+    /* background-color: rgb(21, 216, 21); */
+    /* order: 2; */
+}
+.item-6{
+    /* background-color: rgb(18, 224, 224); */
+    /* flex-grow: 1; */
+}
+.item-7{
+    /* background-color: rgb(188, 173, 223); */
+}
+.item-8{
+    /* background-color: rgb(240, 99, 99); */
+}
+.item-9{
+    /* background-color: rgb(151, 58, 238); */
+}
